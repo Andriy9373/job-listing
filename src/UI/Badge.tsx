@@ -24,7 +24,7 @@ const Badge = ({
         {variant === 'clearable' && (
             <div className='badge-remover' onClick={onClear}>
                 {/* <ReactIcon /> */}
-                <img src='./src/assets/images/icon-remove.svg' alt="Icon Remove"/>
+                <img src='/images/icon-remove.svg' alt="Icon Remove"/>
             </div>
         )}
     </div>
